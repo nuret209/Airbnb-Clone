@@ -269,6 +269,7 @@ head {
     position: relative;
 
     .category {
+        cursor: pointer;
         margin-right: 32px;
         font-size: 12px;
         white-space: nowrap;
@@ -321,6 +322,7 @@ head {
     }
 
     .filterButton {
+        cursor: pointer;
         border: 1px solid #dddddd;
         display: flex;
         align-items: center;
@@ -346,6 +348,7 @@ head {
 
 
         .checkbox-slider {
+            cursor: pointer;
             position: relative;
             display: inline-block;
             margin-left: 16px;
@@ -431,7 +434,6 @@ head {
 
     .helpArea {
         display: flex;
-
         margin-top: 50px;
 
         .colomn {
@@ -442,9 +444,11 @@ head {
                 font-size: 14px;
                 font-weight: normal;
                 color: #222222;
+                cursor: pointer;
 
                 &.Title {
                     font-weight: 600;
+
                 }
             }
         }
@@ -455,6 +459,7 @@ head {
         width: 1146px;
         margin-top: 36px;
         position: relative;
+        cursor: pointer;
 
         &::before {
             bottom: -25px;
@@ -470,9 +475,11 @@ head {
             height: 36px;
             width: 185px;
             margin-bottom: 28px;
-&:last-child{
-    cursor: pointer;
-}
+
+            &:last-child {
+                cursor: pointer;
+            }
+
             .title {
                 font-weight: 500;
                 color: #222222;
@@ -533,6 +540,7 @@ head {
         .firstSection {
             display: flex;
             align-items: center;
+
             i {
                 cursor: default;
                 font-size: 2px;
@@ -551,6 +559,7 @@ head {
     .titles {
         margin-top: 25px;
         display: flex;
+        cursor: pointer;
 
         div {
             margin-right: 26px;
