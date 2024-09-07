@@ -4,7 +4,7 @@ function Tab({ children , a }) {
  const [active, setactive] = useState(a);
     return (
         <>
-            {children.map((tab , index)=><div className={tab.props.class} id={active == index&&"active"} onClick={()=> setactive(index)}>{tab.props.children}</div>)}
+            {children.map((tab , index)=><div key={index} className={tab.props.class} id={active === index ? "active" : ""} onClick={()=> setactive(index)}>{tab.props.children}</div>)}
         </>
     )
 }
